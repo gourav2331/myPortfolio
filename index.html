@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My First Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Hi, I’m <span id="name">You</span> 👋</h1>
+        <button id="dark-toggle">Dark Mode</button>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2><span id="aboutSpan">About</span></h2>
+            <p>I’m learning web dev. This is my first site.</p>
+        </section>
+
+        <section id="work">
+            <h2>Work</h2>
+            <ul>
+                <li>Project 1 – a simple website</li>
+                <li>Project 2 – coming soon</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="email" id="email" placeholder="Your email" required />
+                <button type="submit">Connect</button>
+            </form>
+            <p id="form-msg"></p>
+        </section>
+    </main>
+
+    <footer>© <span id="year"></span> Me</footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
